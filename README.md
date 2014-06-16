@@ -10,11 +10,11 @@ The following lines are the matrix key for the hill cipher.
 
 The file should not contain the border '---------'
 ------------------------------------------------
-3
-1 2 3
-4 5 6
-7 8 9
-------------------------------------------------
+3<br />
+1 2 3<br />
+4 5 6<br />
+7 8 9<br />
+
 The message file contains the message. In any format you would like please see the example provided in the example_files directory.
 
 The src program contains 2 executable programs. MainForm whcih is a GUI for the HillCipher and SampleProgramRun which is the console version which I believe was created as for program requirement. The GUI was something I did before I knew the full requirements.
