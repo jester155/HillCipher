@@ -18,3 +18,7 @@ The file should not contain the border '---------'
 The message file contains the message. In any format you would like please see the example provided in the example_files directory.
 
 The src program contains 2 executable programs. MainForm whcih is a GUI for the HillCipher and SampleProgramRun which is the console version which I believe was created as for program requirement. The GUI was something I did before I knew the full requirements.
+
+Java Files
+------------
+Java source files can be found in the src directory
