@@ -9,8 +9,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-import javax.swing.JFileChooser;
-
 public class SampleProgramRun {
 
 	/**
@@ -83,7 +81,7 @@ public class SampleProgramRun {
 		}
 		
 		HillCipher cipher = new HillCipher(key, n, plainText);
-		String enc = cipher.Encrypt();
+		String enc = cipher.Encrypt(cipher.getKey());
 		
 		try {
 			FileWriter fw = new FileWriter(outFile);

@@ -4,8 +4,6 @@ import java.awt.Component;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
-import javax.swing.filechooser.*;
-import javax.swing.plaf.FileChooserUI;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
@@ -73,7 +71,7 @@ public class MainForm {
 				if (arg0.getSource() == btnGetKeyFile) {
 					Component parent = null;
 					int val = fc.showOpenDialog(parent);
-
+					
 					if (val == JFileChooser.APPROVE_OPTION) {
 						File file = fc.getSelectedFile();
 						tbFilePath.setText(file.getPath());
@@ -167,7 +165,7 @@ public class MainForm {
 				}
 				
 				HillCipher cipher = new HillCipher(key, n, plainText);
-				String enc = cipher.Encrypt();
+				String enc = cipher.Encrypt(cipher.getKey());
 				
 				try {
 					FileWriter fw = new FileWriter(outFile);
