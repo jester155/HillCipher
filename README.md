@@ -8,7 +8,7 @@ See example text files for how to set up both the key and the message text files
 Key text file layout: The first line is the number of rows and columns
 The following lines are the matrix key for the hill cipher. 
 
-The file should not contain the border '---------'
+key.txt file content example
 ------------------------------------------------
 3<br />
 1 2 3<br />
