@@ -1,0 +1,26 @@
+CS:  the  science  that  deals  with  the  theory  and  methods  of  processing  information  in 
+digital computers, the design of computer hardware and software, and the 
+applications of computers. 
+IT: the development, implementation, and maintenance of 
+computer hardware and software systems to organize and communicate information 
+electronically. Abbreviation: IT 
+Computers  are  man-made  tools  that  aid  us  in  solving  other  problems.  A  biologist  is 
+trying to figure out how life works, physicists and  chemists are trying to figure out 
+how  items  react  in  our  universe,  mathematicians  are  trying  to  figure  out  rules  for 
+man-made systems.
+Any  research  problem  that  may  improve  a  computer’s  capability  of  helping  solve  a 
+problem or any research problem that sheds light  about a new way to do something with 
+a computer is part of CS.
+Most exciting research: Medical Applications (Expert Systems for Diagnosis, 
+Remote surgery, nano-devices with computing power to deliver medicine, etc.), 
+We need help trying to create a comprehensive EMR accessible to the right people only, 
+Cars that can drive themselves – seems like the best way we know how to solve lots of 
+problems is by throwing lots of computing power at them, instead of looking for 
+elegant solutions. This doesn’t sound exciting, but it will be exciting when the 
+results are achieved. (ie Watson)
+CS students tend to find jobs where they program at least some. 
+In the process, they are solving problems.
+Challenges: It’s impossible to teach all the new languages/toys. 
+Ultimately, we just need to teach our students how to think, so that they can pick up 
+new things on their own. Our biggest challenge is getting them to buy into that.
+Ethical: Lots, with security etc. 
