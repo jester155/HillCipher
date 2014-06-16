@@ -68,18 +68,20 @@ public class HillCipher {
 	/**
 	 * Sets the plain text value to be encrypted.
 	 * And fills the empty spaces appropriately with x
+	 * Normalizes the string and removes all special characters.
 	 * @param plainText
 	 */
 	public void setPlainText(String plainText) {
-		PlainText = plainText;
+		PlainText = Normalizer.normalize(plainText.toLowerCase(),
+				Normalizer.Form.NFD).replaceAll("[^a-zA-Z]", "");;
 		FillString();
 	}
 
 	/**
-	 * Constructor that sets up variables for the class
-	 * @param key
-	 * @param n
-	 * @param plainText
+	 * Constructor that sets up variables for the class.
+	 * @param key the encryption key
+	 * @param n nxn of the matrix.
+	 * @param plainText all special characters will be removed
 	 */
 	public HillCipher(int[][] key, int n, String plainText) {
 		Key = key;
